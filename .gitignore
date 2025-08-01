@@ -1,0 +1,15 @@
+# Archivos de entorno
+.env
+.env.local
+*.env
+node_modules
+
+# Archivos de configuración sensible
+config.json
+secrets/
+
+# Otros archivos comunes a ignorar (para Python)
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
