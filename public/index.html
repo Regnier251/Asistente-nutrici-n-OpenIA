@@ -7,41 +7,35 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!--Cargando assets-->
     <script src="./assets/js/main.js" defer></script>
-    <title>Chat de traducciones</title>
-    <link rel="icon"  type="image/png" href="./assets/img/icon-translate.png">
+    <title>Asistente de dieta</title>
+    <link rel="icon"  type="image/png" href="./assets/img/icon-diet.png">
 
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
 </head>
 <body>
     <header class="chat__header">
-        <img class="header__icon" src="./assets/img/icon-translate.png" alt="">
-        <h1 class="chat__title">Chat de Traducciones</h1>
+        <img class="header__icon" src="./assets/img/icon-diet.png" alt="">
+        <h1 class="chat__title">Asistente de dieta semanal con IA</h1>
     </header>
     
     <section class="chat">
 
         <div class="chat__messages">
             <!--Cargar los mensajes-->
-
+            <div class="chat__message chat__message--bot">
+                <p>Hola, soy tu asistente de dieta. <strong>¿Cuanto pesas actualmente (kg)?</strong></p>
+            </div>
+              
+            
+            
         </div>
 
         <div class="chat__input-group">
-            <input type="text" id="inputText" class="chat__input" placeholder="¿Qué quieres traducir hoy?">
-
-            <div class="chat__inputs">
-                <select class="chat__select" id="targetLang">
-                    <option value="ingles">Inglés</option>
-                    <option value="español">Español</option>
-                    <option value="italiano">Italiano</option>
-                    <option value="frances">Frances</option>
-                    <option value="aleman">Alemán</option>
-                </select>
-
-                <button class="chat__button" id="translateButton">Traducir</button>
-            </div>
+            <input type="text" id="inputText" class="chat__input" placeholder="¿Te puedo ayudar con tu dieta esta semana?">
+            <button class="chat__button" id="resButton">Responder</button>
         </div>
 
     </section>
-
 
 </body>
 </html>

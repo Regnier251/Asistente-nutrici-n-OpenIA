@@ -1,5 +1,5 @@
 {
-  "name": "01-proyecto-traducciones-openia",
+  "name": "asistente-nutricion-openia",
   "version": "1.0.0",
   "description": "Proyecto de traducciones usando Javascript y el API de OpenAI",
   "main": "app.js",
