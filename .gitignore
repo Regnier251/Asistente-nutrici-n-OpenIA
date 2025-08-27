@@ -4,6 +4,7 @@
 *.env
 node_modules
 
+
 # Archivos de configuración sensible
 config.json
 secrets/
